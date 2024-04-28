@@ -13,5 +13,7 @@ def eat_lunch(lunchbox_contents):
         print(f"I'm going to eat {lunchbox_contents[0]}")
         for item in lunchbox_contents[1:]:
             print(f"Next I eat {item}")
+    else:
+        print("I sure am hungry!")
 
 eat_lunch(["apple", "banana", "carrot"])
